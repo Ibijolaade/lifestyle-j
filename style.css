@@ -1,0 +1,47 @@
+*{
+    color: white;
+}
+body{
+    width: 100%;
+}
+header{
+    height: 50vh;
+    background-image: linear-gradient(
+    to right, 
+    rgb(167, 24, 233),
+    rgb(107, 167, 142)
+    );
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    font-weight: bold;
+    font-family: Arial;
+    padding: 30px;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+#head{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h3{
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial;
+    cursor: pointer;
+
+}
+button{
+    border: 1px solid rgb(107, 167, 142) ;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100px;
+    height: 44px;
+    
+}
